@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:registro_avance/src/widget/headers.dart';
+
+import 'src/widget/headers.dart';
  
 void main() => runApp(MyApp());
  
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: HeaderPico()
+        body: HeaderCurva()
       ),
     );
   }
